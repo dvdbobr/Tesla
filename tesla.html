@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/page2Style.css">
+    <link rel="stylesheet" href="/css/page3Style.css">
+    <link rel="stylesheet" href="/css/page4Style.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Document</title>
+    <script>
+        $(document).ready(function () {
+            $('li').click(function () {
+                $('li.side-nav-item.active').removeClass("active");
+                $(this).addClass("active");
+            });
+        }); 
+    </script>
+</head>
+
+<body>
+    <div id="page1">
+        <header>
+            <nav id="navbar">
+
+                <h1 class="logo-box"><a href="index.html"><img class="logo" src="/images/logoLight.png" alt=""></a>
+                </h1>
+                <div class="nav-models">
+                    <ol>
+                        <li><a href="https://www.tesla.com/models">MODEL S</a></li>
+                        <li><a href="tesla.html">MODEL 3</a></li>
+                        <li><a href="https://www.tesla.com/modelx">MODEL X</a></li>
+                        <li><a href="https://www.tesla.com/modely">MODEL Y</a></li>
+                        <li><a href="https://www.tesla.com/solarroof">SOLAR ROOF</a></li>
+                        <li><a href="https://www.tesla.com/solarpanels">SOLAR PANELS</a></li>
+                    </ol>
+                </div>
+                <div class="nav-account">
+                    <ul>
+                        <li><a href="https://shop.tesla.com/?tesref=true">SHOP</a></li>
+                        <li><a href="https://auth.tesla.com/oauth2/v1/authorize?client_id=teslaweb&response_type=code&scope=openid%20email%20profile&redirect_uri=https%3A//www.tesla.com/openid-connect/generic&state=z7nsbEhWLtEMauAWe4QSnMP190sPU1WJKbn0q_oLahs&locale=en-US">TESLA ACCOUNT</a></li>
+                        <i class="fa fa-bars fa-lg hamburger"></i>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="clr"></div>
+
+        <h1 class="secondary-header">Model 3</h1>
+
+        <div class="callouts">
+            <section>
+                <div class="speedmeter">
+                    <img src="/images/outerSpeedometer.png" alt="">
+                    <div class="innerCircle">
+                        <img src="/images/innerSpeedometer.png" alt="">
+
+                    </div>
+                    <div class="speedArrow">
+                        <img src="/images/SpeedometerArrow.png" alt="">
+                    </div>
+                    <div class="speed callouts-big-font"> 3. 1 s</div>
+                </div>
+
+                <p class="callouts-small-font marg">From 0-60 mph</p>
+            </section>
+            <div class="callout-divider-line"></div>
+            <section>
+                <p class="callouts-big-font">353mi</p>
+
+                <p class="callouts-small-font">Range</p>
+            </section>
+            <div class="callout-divider-line"></div>
+            <section>
+                <p class="callouts-big-font">AWD</p>
+                <p class="callouts-small-font">Dual Motor</p>
+            </section>
+            <button class="order-btn">ORDER NOW</button>
+        </div>
+        <div class="clr"></div>
+        <div class="bottom-arrow-div">
+            <img class="downArrow  tds-animate--bounce" src="/images/AnimatedArrowDown.png" alt="">
+        </div>
+
+    </div>
+
+
+    <div id="page2">
+        <div class="logo-box2">
+            <img class="logo" src="/images/logoDark.png" alt="">
+        </div>
+
+        <div class="clr"></div>
+        <div class="page2-left">
+
+            <header class="page2-header">
+                <h2>Safety</h2>
+                <h1>Built for Safety</h1>
+            </header>
+            <p>Safety is the most important part of the overall Model 3 design. The metal structure is a combination
+                of
+                aluminum and steel, for maximum strength in every area. In a roof-crush test, Model 3 resisted four
+                times its own mass, even with an all-glass roof: that's the same weight as two full-grown African
+                elephants.
+            </p>
+
+            <div class="card">
+                <h3 class="lg-text">5-Star Overall NHTSA Rating</h3>
+                <ol>
+
+
+                    <li>
+                        <div class="rating-left">
+                            <span class="md-text">Driver<span class="sm-text">Frontal</span></span>
+                        </div>
+                        <div class="rating-right">
+                            <span>★ </span><span>★ </span><span>★ </span><span>★ </span><span>★</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="rating-left">
+                            <span class="md-text">Passenger<span class="sm-text">Frontal</span></span>
+                        </div>
+                        <div class="rating-right">
+                            <span>★ </span><span>★ </span><span>★ </span><span>★ </span><span>★</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="rating-left">
+                            <span class="md-text">Front Seat<span class="sm-text">Side</span></span>
+                        </div>
+                        <div class="rating-right">
+                            <span>★ </span><span>★ </span><span>★ </span><span>★ </span><span>★</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="rating-left">
+                            <span class="md-text">Rear Seat<span class="sm-text">Side</span></span>
+                        </div>
+                        <div class="rating-right">
+                            <span>★ </span><span>★ </span><span>★ </span><span>★ </span><span>★</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="rating-left">
+                            <span class="md-text">Rollover</span>
+
+                        </div>
+                        <div class="rating-right">
+                            <span>★ </span><span>★ </span><span>★ </span><span>★ </span><span>★</span>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="buttons-page2">
+            <button class="learn-btn">+</button><span>LEARN MORE</span>
+            <button class="order-btn2">ORDER NOW</button>
+        </div>
+        <div class="page2-right">
+            <div class="annotation-line1"><span class="annotation-text-top">&nbsp; Impact Protection</span>
+                <div class="white-dot1"></div>
+            </div>
+            <div class="annotation-line2"><span class="annotation-text-top">&nbsp; Rigid Structure</span>
+                <div class="white-dot2"></div>
+            </div>
+            <div class="annotation-line3"><span class="annotation-text-bot">&nbsp; Very Low Rollover Risk</span>
+                <div class="white-dot3"></div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="page3">
+        <div class="logo-box2">
+            <img class="logo" src="/images/logoDark.png" alt="">
+        </div>
+
+        <div class="page3-top">
+            <div class="clr"></div>
+            <div class="callouts-page3">
+                <section style="padding-left: 0;">
+                    <div class="speedmeter">
+                        <img src="/images/outerSpeedometer.png" alt="">
+                        <div class="innerCircle">
+                            <img src="/images/innerSpeedometer.png" alt="">
+
+                        </div>
+                        <div class="speedArrow">
+                            <img src="/images/SpeedometerArrow.png" alt="">
+                        </div>
+
+                    </div>
+                    <div class="speed-page3 callouts-big-font"> 3. 1 s</div>
+                    <p class="callouts-small-font-white marg">Quickest acceleration—from zero to 60 mph in as little as
+                        3.1 seconds</p>
+
+                </section>
+                <div class="callout-divider-line2"></div>
+                <section>
+                    <p class="callouts-big-font">162mph</p>
+
+                    <p class="callouts-small-font-white marg">Improved handling and aerodynamics allow for a top speed
+                        of 162
+                        mph</p>
+                </section>
+                <div class="callout-divider-line2"></div>
+                <section>
+                    <p class="callouts-big-font">AWD</p>
+
+                    <p class="callouts-small-font-white marg">Dual Motor All-Wheel Drive instantly controls traction and
+                        torque, in all weather conditions</p>
+                </section>
+            </div>
+            <div class="clr"></div>
+            <div class="page3-bot">
+                <div class="page3-bot-content">
+                    <div class="page3-bot-left-content">
+                        <h2>Performence</h2>
+                        <h1>Quickest Acceleration</h1>
+                        <div class="buttons-page3">
+                            <button class="learn-btn">+</button><span>LEARN MORE</span>
+                            <button class="order-btn2">ORDER NOW</button>
+                        </div>
+                    </div>
+                    <div class="page3-bot-right-content">
+                        <p>Model 3 comes with the option of dual motor all-wheel drive, 20” Überturbine Wheels and
+                            Performance Brakes and lowered suspension for total control, in all weather conditions. And
+                            a carbon fiber spoiler improves stability at high speeds, all allowing Model 3 to accelerate
+                            from 0-60 mph in as little as 3.1 seconds.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clr"></div>
+    <div id="page4">
+        <div class="logo-box2">
+            <img class="logo" src="/images/logoDark.png" alt="">
+        </div>
+        <div class="page4-top">
+            <div class="clr"></div>
+            <div class="callouts-page3">
+                <section style="padding-left: 0;">
+
+                    <div class="section1-page4 callouts-big-font"> 2</div>
+                    <p class="callouts-small-font-white marg">Independent motors digitally control torque to the front
+                        and rear wheels</p>
+
+                </section>
+                <div class="callout-divider-line2"></div>
+                <section>
+                    <p class="callouts-big-font">10ms</p>
+
+                    <p class="callouts-small-font-white marg">Dual motors respond to changing conditions in as little as
+                        10 milliseconds</p>
+                </section>
+                <div class="callout-divider-line2"></div>
+                <section>
+                    <img class="cloud-img"
+                        src="https://tesla-cdn.thron.com/delivery/public/image/tesla/ba09ef22-e9cc-4bda-a171-de1cd6f6cf6a/bvlatuR/std/0x0/weather"
+                        alt="">
+
+                    <p class="callouts-small-font-white marg">Unparalleled traction and control, in all weather
+                        conditions</p>
+                </section>
+            </div>
+        </div>
+        <div class="clr"></div>
+        <div class="page3-bot">
+            <div class="page3-bot-content">
+                <div class="page4-bot-left-content">
+                    <h2>All-Wheel Drive</h2>
+                    <h1>Dual Motor</h1>
+                    <div class="buttons-page3">
+
+                        <button class="order-btn2">ORDER NOW</button>
+                    </div>
+                </div>
+                <div class="page4-bot-right-content">
+                    <p>Tesla All-Wheel Drive has two independent motors for improved redundancy, each with only one
+                        moving part for minimal maintenance and maximum durability. Unlike traditional all-wheel drive
+                        systems, they digitally control torque to the front and rear wheels for far better handling and
+                        traction control.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <ul class="side_nav-container tds-list" style="top: calc(42% - 126px);">
+        <li class="side-nav-item active"><a href="#page1">MODEL 3</a></li>
+        <li class="side-nav-item "><a href="#page2">SAFETY</a></li>
+        <li class="side-nav-item "><a href="#page3">PERFORMENCE</a></li>
+        <li class="side-nav-item "><a href="#page4">ALL-WHEEL DRIVE</a></li>
+        <li class="side-nav-item "><a href="#page1">RANGE</a></li>
+        <li class="side-nav-item "><a href="#page1">AUTO PILOT</a></li>
+        <li class="side-nav-item "><a href="#page1">INTERIOR</a></li>
+        <li class="side-nav-item "><a href="#page1">SPECS</a></li>
+        <li class="side-nav-item "><a href="#page1">ORDER</a></li>
+    </ul>
+
+
+
+
+</body>
+
+</html>

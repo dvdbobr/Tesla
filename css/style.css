@@ -1,0 +1,327 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+header {
+    height: 52px;
+}
+
+body {
+    font-family: "Gotham";
+    overflow-x: hidden;
+}
+
+/* Page 1 */
+
+#page1 {
+    background: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/b03da2fc-ecaa-4554-8df9-8f73e411f360/bvlatuR/std/2880x1800/model-3-hero-desktop') center center/cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+#page1 ol {
+    text-align: center;
+    list-style-type: none;
+}
+
+#page1 ol li {
+    padding: 20px 10px;
+    float: left;
+}
+
+#page1 ol li a {
+    font-family: "GothamMedium";
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/* Navbar */
+
+.nav-models {
+    float: left;
+    width: 47vw;
+    margin: auto;
+}
+
+.nav-account {
+    float: left;
+    width: 18vw;
+    margin-right: 5px;
+}
+
+.logo {
+    inline-size: 100px;
+}
+
+.logo-box {
+    padding-left: 20px;
+    margin-top: 10px;
+    width: 34vw;
+}
+
+#navbar {
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a {
+    color: white;
+}
+
+#navbar h1 {
+    float: left;
+}
+
+#navbar ul {
+    margin: auto;
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.hamburger {
+    padding: 20px 10px;
+}
+
+.clr {
+    clear: both;
+}
+
+.secondary-header {
+    font-family: "GothamMedium";
+    font-weight: 500;
+    line-height: 48px;
+    color: #fff;
+    margin-top: 35px;
+    text-align: center;
+    padding-top: 24px;
+    font-size: 40px;
+}
+
+/* Side Navbar */
+
+.side_nav-container {
+    list-style-type: none;
+    left: 17px;
+    display: block;
+    position: fixed;
+    z-index: 5;
+    width: 150px;
+}
+
+.side_nav-container li {
+    height: 23px;
+    border-left: 2px solid #686d75;
+    margin: 2px;
+}
+
+.side_nav-container li.active {
+    border-color: white;
+}
+
+.side_nav-container li a {
+    font-family: "GothamBook";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    text-decoration: none;
+    color: transparent;
+    padding-left: 7px;
+}
+
+.side_nav-container li a:hover {
+    color: #fff;
+}
+
+.side_nav-container li:active {
+    border-left-color: #fff;
+    color: white;
+    
+}
+
+.tds-list {
+    margin: 8px 0;
+    padding: 0 2px;
+}
+
+/* Callouts */
+
+.callouts {
+    padding-left: calc(33.3%);
+    width: 100vw;
+    height: 110px;
+    margin-top: 65vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.callouts section {
+    float: left;
+    padding: 0px 20px;
+    width: 160px;
+}
+
+.callouts p {
+    color: #fff;
+    text-align: center;
+}
+
+.callout-divider-line {
+    float: left;
+    border-left: 1px solid #fff;
+    height: 65px;
+}
+
+.speedmeter {
+    margin-top: 7px;
+    filter: invert(100%);
+    margin-right: 4px;
+    height: 25px;
+}
+
+.innerCircle {
+    left: 0;
+    padding-left: 6px;
+    bottom: -2px;
+    height: 21px;
+    inset-inline-start: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 40px;
+    opacity: 0.3;
+}
+
+.speedArrow {
+    padding-left: 21px;
+    margin-top: -17px;
+}
+
+.callouts-big-font {
+    font-family: "GothamMedium";
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+.callouts-small-font {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.speed {
+    float: right;
+    margin-top: -33px;
+}
+
+.marg {
+    margin-top: 4px;
+}
+
+/* Button */
+
+.order-btn {
+    color: #fff;
+    border-radius: 28px;
+    border: 3px solid #fff;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    background-color: transparent;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    height: 40px;
+    width: 160px;
+    cursor: pointer;
+}
+
+.order-btn:hover {
+    background-color: #fff;
+    color: black;
+}
+
+/* Arrow and Animation */
+
+.bottom-arrow-div {
+    width: 100%;
+    filter: invert(100%);
+}
+
+.downArrow {
+    display: block;
+    border: none;
+    height: 20px;
+    margin: 1vh auto 3vh;
+    opacity: 1;
+    position: static;
+    width: 20px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.tds-animate--bounce {
+    animation-name: tds-keyframe--bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes tds-keyframe--bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(5px);
+    }
+    60% {
+        transform: translateY(3px);
+    }
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: url(../fonts/GothamBook.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GothamBook";
+    src: url(../fonts/GothamBook.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GothamMedium";
+    src: url(../fonts/GothamMedium.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GothamBold";
+    src: url(./fonts/GothamBold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+

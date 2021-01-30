@@ -1,0 +1,110 @@
+#page3 {
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+.page3-top {
+    width: 100vw;
+    height: 36vw;
+    background: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/3489a82e-b19c-457a-86a4-7ea9ac91aa1c/bvlatuR/std/1920x1080/lhd-performance-hero-desktop') center center/cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-img-3 {
+    height: 80%;
+    width: 100%;
+}
+/* Callouts Page3 */
+.callouts-page3 {
+    padding-left: calc(24.3%);
+    width: 100vw;
+    height: 110px;
+    margin-top: 51vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.callouts-page3 section {
+    float: left;
+    padding: 0 20px;
+    width: 320px;
+    height: 84px;
+    color: white;
+}
+
+.speed-page3 {
+    margin-top: -31px;
+    margin-left: 46px;
+}
+
+.callouts-small-font-white {
+    color: white;
+    font-family: "GothamBook";
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.callout-divider-line2 {
+    float: left;
+    border-left: 1px solid #fff;
+    height: 84px;
+}
+/* Page3 Bottom */
+.page3-bot {
+    width: 100vw;
+    height: 15vw;
+    padding-top: 49px;
+}
+
+.page3-bot-content {
+    padding-left: calc(24.3%);
+}
+
+.page3-bot-content h1 {
+    font-size: 28px;
+    line-height: 36px;
+    color: #171a20;
+    font-family: "GothamMedium";
+    font-weight: 500;
+}
+
+.page3-bot-content h2 {
+    font-family: "GothamBook";
+    font-size: 17px;
+    line-height: 17px;
+    color: #171a20;
+}
+
+.page3-bot-left-content {
+    float: left;
+    padding: 48px 20px 48px 0;
+    width: 351px;
+    height: 219px;
+}
+
+.buttons-page3 {
+    padding-top: 16px;
+}
+
+.page3-bot-right-content {
+    width: 624px;
+    height: 119px;
+    float: left;
+    padding: 48px 0;
+}
+
+.page3-bot-right-content p {
+    font-family: "GothamLight";
+    font-size: 14;
+    line-height: 21px;
+    color: #393c41;
+}
+
+.buttons-page3 span {
+    font-family: "GothamBook";
+    font-weight: 400;
+}
+

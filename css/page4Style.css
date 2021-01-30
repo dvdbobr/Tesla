@@ -1,0 +1,41 @@
+#page4 {
+    width: 100vw;
+    height: 937px;
+    overflow-y: hidden;
+    scroll-snap-align: start;
+}
+
+.page4-top {
+    width: 100vw;
+    height: 36vw;
+    background: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/02b9fe62-2569-4fc8-bfa1-a8f8cdd9d48e/bvlatuR/std/1440x900/lhd-awd-hero-desktop') center center/cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section1-page4 {
+    margin-top: 0px;
+    margin-left: 0;
+}
+.cloud-img{
+    margin-top: -7px;
+    width: 40px;height: 40px;
+}
+.page4-bot-left-content {
+    float: left;
+    
+    width: 351px;
+    height: 219px;
+}
+.page4-bot-right-content {
+    width: 624px;
+    height: 119px;
+    float: left;
+    
+}
+.page4-bot-right-content p {
+    font-family: "GothamLight";
+    font-size: 14;
+    line-height: 21px;
+    color: #393c41;
+}
